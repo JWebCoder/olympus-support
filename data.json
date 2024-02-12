@@ -1,0 +1,179 @@
+{
+  "projectName": {
+    "index": {
+      "friendlyName": "HomePage",
+      "name": "index",
+      "children": [
+        {
+          "type": "MainButton",
+          "id": "MainButton",
+          "friendlyName": "MainButton",
+          "children": [],
+          "props": {
+            "text": "Login"
+          }
+        },
+        {
+          "type": "CardBlack",
+          "id": "Card1",
+          "friendlyName": "CardBlack",
+          "children": [
+            {
+              "type": "Button",
+              "id": "Button1",
+              "friendlyName": "Button",
+              "children": [],
+              "props": {
+                "text": "Login"
+              }
+            }
+          ],
+          "props": {
+            "text": "Hello World",
+            "title": "João Cardoso"
+          }
+        },
+        {
+          "type": "CardBlack",
+          "id": "Card2",
+          "friendlyName": "CardBlack",
+          "children": [
+            {
+              "type": "Button",
+              "id": "Button1",
+              "friendlyName": "Button",
+              "children": [],
+              "props": {
+                "text": "Login"
+              }
+            }
+          ],
+          "props": {
+            "text": "Hello this World",
+            "title": "Nelson Sanlez"
+          }
+        },
+        {
+          "type": "ChoseProfPic",
+          "id": "WhereDoIGetThisID?",
+          "friendlyName": "WhatIsThis?",
+          "children": [
+            {
+              "type": "Button",
+              "id": "Button1",
+              "friendlyName": "Button",
+              "children": [],
+              "props": {
+                "text": "TheseArePropsToAChildComponent"
+              }
+            }
+          ],
+          "props": {
+            "text": "Hello this World",
+            "title": "Nelson Sanlez"
+          }
+        }
+      ]
+    },
+    "anotherone": {
+      "friendlyName": "TextBoxesImg",
+      "name": "anotherone",
+      "children": [
+        {
+          "type": "TitleBox",
+          "id": "TitleBox",
+          "friendlyName": "TitleBox",
+          "children": [],
+          "props": {
+            "title": "olympussssss",
+            "style": {
+              "fontsize": 10,
+              "color": "blue",
+              "fonttype": "TimesNewRoman"
+            }
+          }
+        },
+        {
+          "type": "TextBox",
+          "id": "TextBox",
+          "friendlyName": "TextBox",
+          "children": [],
+          "props": {
+            "text": "este é um texto normal aie",
+            "style": {
+              "fontsize": 10,
+              "color": "red",
+              "fonttype": "Arial"
+            }
+          }
+        },
+        {
+          "type": "Imagem",
+          "id": "Imagem1",
+          "friendlyName": "Imagem1",
+          "children": [],
+          "props": {
+            "href": "https://t3.ftcdn.net/jpg/06/20/86/36/240_F_620863665_1ZbycD8zqoCUx6bWXzSDRoMwP7silfcp.jpg",
+            "alt": "some random olympus image"
+          }
+        },
+        {
+          "type": "Grid",
+          "id": "Grid",
+          "friendlyName": "Grid",
+          "children": [
+            {
+              "type": "MainButton",
+              "id": "MainButton",
+              "friendlyName": "MainButton",
+              "children": [],
+              "props": {
+                "text": "Login"
+              }
+            },{
+              "type": "TitleBox",
+              "id": "TitleBox",
+              "friendlyName": "TitleBox",
+              "children": [],
+              "props": {
+                "title": "olympussssss",
+                "style": {
+                  "fontsize": 10,
+                  "color": "blue",
+                  "fonttype": "TimesNewRoman"
+                }
+              }
+            },
+            {
+              "type": "TextBox",
+              "id": "TextBox",
+              "friendlyName": "TextBox",
+              "children": [],
+              "props": {
+                "text": "este é um texto normal aie",
+                "style": {
+                  "fontsize": 10,
+                  "color": "red",
+                  "fonttype": "Arial"
+                }
+              }
+            },
+            {
+              "type": "Imagem",
+              "id": "Imagem1",
+              "friendlyName": "Imagem1",
+              "children": [],
+              "props": {
+                "href": "https://t3.ftcdn.net/jpg/06/20/86/36/240_F_620863665_1ZbycD8zqoCUx6bWXzSDRoMwP7silfcp.jpg",
+                "alt": "some random olympus image"
+              }
+            }
+          ],
+          "props": {
+            "columns": 4
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,9 @@
+[
+  {
+    "id": 1,
+    "type": "text",
+    "friendlyName": "testComp",
+    "props": "{something: \"value\",anotherProp: true}",
+    "parentPageId": 1
+  }
+]
