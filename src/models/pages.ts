@@ -5,7 +5,7 @@ export default {
   relations: [
     {
       type: '1:n',
-      foreignKey: 'parentId',
+      foreignKey: 'parentPageId',
       remoteEntity: 'components',
     }
   ],

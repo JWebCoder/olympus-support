@@ -28,6 +28,10 @@ export default {
       }
     },
     {
+      name: 'order',
+      type: 'number',
+    },    
+    {
       name: 'parentComponentId',
       type: 'number',
       backoffice: {
@@ -38,7 +42,7 @@ export default {
   relations: [
     {
       type: '1:n',
-      foreignKey: 'parentId',
+      foreignKey: 'parentComponentId',
       remoteEntity: 'components',
     },
     {

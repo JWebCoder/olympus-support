@@ -3,5 +3,10 @@
     "id": 1,
     "friendlyName": "Home",
     "name": "home"
+  },
+  {
+    "id": 10,
+    "friendlyName": "Nelson",
+    "name": "nelson"
   }
 ]

@@ -1,9 +1,42 @@
 [
   {
     "id": 1,
+    "order": 1,
     "type": "text",
     "friendlyName": "testComp",
     "props": "{something: \"value\",anotherProp: true}",
     "parentPageId": 1
+  },
+  {
+    "id": 20,
+    "order": 1,
+    "type": "text",
+    "friendlyName": "test",
+    "props": "{\"text\":\"ola\"}",
+    "parentPageId": 10
+  },
+  {
+    "id": 21,
+    "order": 1,
+    "type": "text",
+    "friendlyName": "test",
+    "props": "{\"text\":\"ola\"}",
+    "parentComponentId": 20
+  },
+  {
+    "id": 22,
+    "order": 1,
+    "type": "text",
+    "friendlyName": "test",
+    "props": "{\"text\":\"ola\"}",
+    "parentComponentId": 21
+  },
+  {
+    "id": 23,
+    "order": 1,
+    "type": "text",
+    "friendlyName": "test",
+    "props": "{\"text\":\"ola\"}",
+    "parentComponentId": 22
   }
 ]
