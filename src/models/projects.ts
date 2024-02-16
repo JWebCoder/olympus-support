@@ -1,18 +1,13 @@
 export default {
-  name: 'pages',
+  name: 'projects',
   connector: 'mainJSONDatabase',
   visible: true,
   relations: [
     {
       type: '1:n',
-      foreignKey: 'parentPageId',
-      remoteEntity: 'components',
-    },
-    {
-      type: 'n:1',
       foreignKey: 'parentProjectId',
-      remoteEntity: 'projects',
-    },
+      remoteEntity: 'pages',
+    }
   ],
   properties: [
     {
@@ -27,16 +22,9 @@ export default {
     {
       name: 'name',
       type: 'string',
-    },
-    {
-      name: 'parentProjectId',
-      type: 'number',
-      backoffice: {
-        label: 'Project Id'
-      }
-    },
+    }
   ],
   backoffice: {
-    label: 'Pages',
+    label: 'Projects',
   }
 }

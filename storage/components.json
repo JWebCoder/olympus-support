@@ -21,7 +21,8 @@
     "type": "text",
     "friendlyName": "test",
     "props": "{\"text\":\"ola\"}",
-    "parentComponentId": 20
+    "parentComponentId": 20,
+    "parentPageId": 10
   },
   {
     "id": 22,
@@ -29,7 +30,8 @@
     "type": "text",
     "friendlyName": "test",
     "props": "{\"text\":\"ola\"}",
-    "parentComponentId": 21
+    "parentComponentId": 21,
+    "parentPageId": 10
   },
   {
     "id": 23,
@@ -37,6 +39,7 @@
     "type": "text",
     "friendlyName": "test",
     "props": "{\"text\":\"ola\"}",
-    "parentComponentId": 22
+    "parentComponentId": 22,
+    "parentPageId": 10
   }
 ]

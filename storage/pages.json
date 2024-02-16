@@ -2,11 +2,13 @@
   {
     "id": 1,
     "friendlyName": "Home",
-    "name": "home"
+    "name": "home",
+    "parentProjectId": 1
   },
   {
     "id": 10,
     "friendlyName": "Nelson",
-    "name": "nelson"
+    "name": "nelson",
+    "parentProjectId": 1
   }
 ]
